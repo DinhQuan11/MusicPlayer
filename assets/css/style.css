@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #1fdf64;
+  --text-color: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #121212;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.container .btn-pause {
+  display: none;
+}
+
+.dashboard {
+  padding: 16px 16px 14px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 480px;
+}
+
+.cd {
+  display: flex;
+  margin: auto;
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+.cd-thumb {
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  background-color: #000;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.information {
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.author {
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.progress {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: #4d4d4d;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 5%;
+}
+
+/* Định dạng màu cho dải trượt */
+.progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* Định dạng màu cho dải trượt cho các website khác */
+.progress::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 8px 0;
+}
+
+.btn {
+  color: #fff;
+  font-size: 20px;
+  padding: 16px;
+}
+
+.control .btn.active {
+  color: var(--primary-color);
+}
+
+.control .btn-toggle-play {
+  font-size: 40px;
+}
+
+.playlist {
+  background-color: #121212;
+  margin-top: 600px;
+  padding: 8px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.song:active {
+  opacity: 0.8;
+}
+
+.song.active .title {
+  color: var(--primary-color);
+}
+
+.song .thumb {
+  width: 44px;
+  height: 44px;
+  background-size: cover;
+  margin: 0;
+}
+
+.song .body {
+  flex: 1;
+  padding: 0 16px;
+}
+
+.body-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.body-author {
+  font-size: 14px;
+  color: #a7a7a7;
+}
+
+.option {
+  font-size: 20px;
+  color: #a7a7a7;
+  padding: 4px;
+}

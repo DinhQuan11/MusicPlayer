@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Dashboard -->
+      <div class="dashboard">
+        <!-- CD -->
+        <div class="cd">
+          <div
+            class="cd-thumb"
+            style="
+              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
+            "
+          ></div>
+        </div>
+
+        <!-- Title & Author-->
+        <div class="information">
+          <h2 class="title">Chúng Ta Của Tương Lai</h2>
+          <h4 class="author">Sơn Tùng M-TP</h4>
+        </div>
+
+        <!-- Control -->
+        <input id="progress" class="progress" type="range" />
+
+        <div class="control">
+          <div class="btn btn-shuffle">
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+          <div class="btn btn-backward">
+            <i class="fa-solid fa-backward-step"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+            <i class="fa-solid fa-circle-play btn-play"></i>
+            <i class="fa-solid fa-circle-pause btn-pause"></i>
+          </div>
+          <div class="btn btn-forward">
+            <i class="fa-solid fa-forward-step"></i>
+          </div>
+          <div class="btn btn-repeat">
+            <i class="fa-solid fa-repeat"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Playlist -->
+      <div class="playlist">
+        <div class="song">
+          <div
+            class="thumb"
+            style="
+              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
+            "
+          ></div>
+          <div class="body">
+            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
+            <p class="body-author">Sơn Tùng M-TP</p>
+          </div>
+          <div class="option">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="song">
+          <div
+            class="thumb"
+            style="
+              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
+            "
+          ></div>
+          <div class="body">
+            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
+            <p class="body-author">Sơn Tùng M-TP</p>
+          </div>
+          <div class="option">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="song">
+          <div
+            class="thumb"
+            style="
+              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
+            "
+          ></div>
+          <div class="body">
+            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
+            <p class="body-author">Sơn Tùng M-TP</p>
+          </div>
+          <div class="option">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="song">
+          <div
+            class="thumb"
+            style="
+              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
+            "
+          ></div>
+          <div class="body">
+            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
+            <p class="body-author">Sơn Tùng M-TP</p>
+          </div>
+          <div class="option">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

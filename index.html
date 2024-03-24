@@ -19,22 +19,25 @@
       <div class="dashboard">
         <!-- CD -->
         <div class="cd">
-          <div
-            class="cd-thumb"
-            style="
-              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
-            "
-          ></div>
+          <div class="cd-thumb" style="background-image: url()"></div>
         </div>
 
-        <!-- Title & Author-->
+        <!-- Title & Singer-->
         <div class="information">
-          <h2 class="title">Chúng Ta Của Tương Lai</h2>
-          <h4 class="author">Sơn Tùng M-TP</h4>
+          <h2 class="title"></h2>
+          <h4 class="singer"></h4>
         </div>
 
         <!-- Control -->
-        <input id="progress" class="progress" type="range" />
+        <input
+          id="progress"
+          class="progress"
+          type="range"
+          min="0"
+          max="1000"
+          step="1"
+          value="0"
+        />
 
         <div class="control">
           <div class="btn btn-shuffle">
@@ -54,71 +57,12 @@
             <i class="fa-solid fa-repeat"></i>
           </div>
         </div>
+
+        <audio id="audio" src=""></audio>
       </div>
 
       <!-- Playlist -->
-      <div class="playlist">
-        <div class="song">
-          <div
-            class="thumb"
-            style="
-              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
-            "
-          ></div>
-          <div class="body">
-            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
-            <p class="body-author">Sơn Tùng M-TP</p>
-          </div>
-          <div class="option">
-            <i class="fa-solid fa-ellipsis"></i>
-          </div>
-        </div>
-        <div class="song">
-          <div
-            class="thumb"
-            style="
-              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
-            "
-          ></div>
-          <div class="body">
-            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
-            <p class="body-author">Sơn Tùng M-TP</p>
-          </div>
-          <div class="option">
-            <i class="fa-solid fa-ellipsis"></i>
-          </div>
-        </div>
-        <div class="song">
-          <div
-            class="thumb"
-            style="
-              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
-            "
-          ></div>
-          <div class="body">
-            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
-            <p class="body-author">Sơn Tùng M-TP</p>
-          </div>
-          <div class="option">
-            <i class="fa-solid fa-ellipsis"></i>
-          </div>
-        </div>
-        <div class="song">
-          <div
-            class="thumb"
-            style="
-              background-image: url('https://kenh14cdn.com/thumb_w/660/203336854389633024/2024/2/22/photo-1-17086043617071450823320.jpg');
-            "
-          ></div>
-          <div class="body">
-            <h3 class="body-title">Chúng Ta Của Tương Lai</h3>
-            <p class="body-author">Sơn Tùng M-TP</p>
-          </div>
-          <div class="option">
-            <i class="fa-solid fa-ellipsis"></i>
-          </div>
-        </div>
-      </div>
+      <div class="playlist"></div>
     </div>
 
     <script src="/assets/js/main.js"></script>
